@@ -27,7 +27,7 @@ int main(void)
   double y0=1.0;
   double y1=0.0;
   double h=0.01;
-  for(double t=0; t<=1000; t++){
+  for(double t=0; t<=10; t+=h){
    Eulerm(t, y0,y1, DeltaT);}
     return 0;
 }
